@@ -1,13 +1,10 @@
-import './App.css'
-//import Login from './Pages/Login/Index'
-import AppRoutes from './Routes'
+import { RouterProvider } from "react-router-dom";
+import { router } from "./routers";
 
 function App() {
 
   return (
-   <div>
-    <AppRoutes/>
-   </div>
+    <RouterProvider router={router} />
   );
 }
 
