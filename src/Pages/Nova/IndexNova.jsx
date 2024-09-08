@@ -1,6 +1,6 @@
 import React from 'react'
 
-const IndexNova = () => {
+const Register = () => {
   return (
     <div>
       <h1>Nova</h1>
@@ -8,4 +8,4 @@ const IndexNova = () => {
   )
 }
 
-export default IndexNova
+export default Register

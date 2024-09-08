@@ -1,6 +1,6 @@
 import React from 'react'
 
-const indexRec = () => {
+const RecoverPassword = () => {
   return (
     <div>
       <h1>Rec</h1>
@@ -8,4 +8,4 @@ const indexRec = () => {
   )
 }
 
-export default indexRec
+export default RecoverPassword;
